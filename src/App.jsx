@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ContactMe from "./components/ContactMe/ContactMe";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import Resume from "./components/Resume/Resume.jsx";
 import "./App.css";
 
