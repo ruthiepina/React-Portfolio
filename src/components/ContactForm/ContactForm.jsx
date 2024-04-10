@@ -1,6 +1,6 @@
 //* USING CONTACT FORM DATA FROM MY PROJECT 3!!!!!
 import React, { useState, useEffect } from "react";
-import "./ContactForm.css"; // Standard CSS import
+import "./ContactForm.css"; 
 
 function ContactForm() {
    const [formData, setFormData] = useState({
