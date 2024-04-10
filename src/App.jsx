@@ -17,7 +17,7 @@ function App() {
             <Header />
             <main>
                <Routes>
-                  <Route path="/" element={<AboutMe />} /> {/* 'About Me' now serves as the Home Page */}
+                  <Route path="/" element={<AboutMe />} />
                   <Route path="/contact" element={<ContactMe />} />
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/resume" element={<Resume />} />
