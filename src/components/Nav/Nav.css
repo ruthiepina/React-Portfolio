@@ -1,0 +1,37 @@
+.app-nav {
+   width: 100%;
+   background-color: #2a1a42;
+}
+
+.app-nav ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+.app-nav li {
+   flex: 1;
+   border-right: 1px solid #fff;
+}
+
+.app-nav li:last-child {
+   border-right: none;
+}
+
+.app-nav li a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0;
+   color: white;
+   text-decoration: none;
+   transition: background-color 0.3s;
+}
+
+.app-nav li a:hover,
+.app-nav li a:focus {
+   background-color: #c3a9f1;
+}

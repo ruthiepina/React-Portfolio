@@ -1,0 +1,29 @@
+.portfolio {
+   padding: 20px;
+}
+
+.portfolio h1 {
+   text-align: center;
+}
+
+.portfolio-cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* Display 3 cards per row */
+   gap: 20px;
+}
+
+.portfolio-card {
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+.portfolio-card img {
+   width: 100%;
+   height: auto;
+}
+
+.portfolio-card h3 {
+   text-align: center;
+   margin: 10px 0;
+}
