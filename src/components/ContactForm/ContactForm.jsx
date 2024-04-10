@@ -1,6 +1,6 @@
 //* USING CONTACT FORM DATA FROM MY PROJECT 3!!!!!
 import React, { useState, useEffect } from "react";
-import "./ContactForm.css"; 
+import "./ContactForm.css";
 
 function ContactForm() {
    const [formData, setFormData] = useState({
@@ -35,13 +35,13 @@ function ContactForm() {
    };
 
    return (
-      <div className="cf-container">
+      <div>
          {" "}
          {/* This className was adjusted for consistency */}
          {submitted ? (
             <p className="cf-submission-confirmation">Form submitted successfully!</p>
          ) : (
-            <div className="form-container">
+            <div className="contact-container">
                {" "}
                {/* Properly applying styles to this container */}
                <form onSubmit={handleSubmit} className="cf-form">

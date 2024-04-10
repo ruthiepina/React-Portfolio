@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+import MainHeader from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactMe from "./components/ContactMe/ContactMe";
@@ -9,12 +9,10 @@ import Resume from "./components/Resume/Resume";
 import "./App.css";
 
 function App() {
-   const [count, setCount] = useState(0);
-
    return (
       <Router>
          <div className="App">
-            <Header />
+            <MainHeader />
             <main>
                <Routes>
                   <Route path="/" element={<AboutMe />} />

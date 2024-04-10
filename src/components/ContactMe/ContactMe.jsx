@@ -5,7 +5,7 @@ import "./ContactMe.css";
 function ContactMe() {
    return (
       <div className="contact-container">
-         <h2>Contact Me!</h2>
+         <h2 className="contact-heading">Contact Me!</h2>
          <ContactFormWrapper /> {/*Using all my project 3 logic and code for these components*/}
       </div>
    );

@@ -1,6 +1,6 @@
 /**USING MY PROJECT 3 CONTACT FORM STYLING!!!!
 /* Refactoring CSS with unique class names prefixed with "cf-" to ensure specificity */
-.cf-container {
+.contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -5,6 +5,7 @@ function Resume() {
    return (
       <div className="resume-container">
          <h1>Skills</h1>
+         <div className="skills-header"></div>
          <table className="skills-table">
             <tbody>
                <tr>
